@@ -16,4 +16,4 @@
 ####Open another terminal tab and rum -
 > mongod --dbpath {your-db-pah}
 ######  (make sure you have mongo installed)
-####Your server is now up and running on - http://localhost:3010/
+####Your server is now up and running on - http://localhost:2743/
