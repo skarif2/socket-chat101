@@ -1,4 +1,4 @@
-body, textarea, input{
+/*body, textarea, input{
 	font: 14px "Trebuchet MS", sans-serif;
 }
 .chat{
@@ -34,4 +34,43 @@ body, textarea, input{
 }
 .chat-status{
 	color: #bbb;
+}*/
+.chat-row{
+	border-radius: 8px;
+	height: 580px;
+}
+.chat-heading{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.chat-heading h4{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.vertical-line{
+	border-right: 2px solid #00bfa5;
+	height: 500px;
+}
+.chat-name{
+	color: white;
+}
+.chat-textarea{
+	width: 100%;
+	padding: 10px;
+	max-width: 100%;
+	color: white;
+}
+.chat-messages{
+	width: 100%;
+	height: 380px;
+	overflow-y: scroll;
+	padding: 10px;
+	color: white;
+	border-radius: 8px
+}
+.chat-status{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #bdbdbd;
 }

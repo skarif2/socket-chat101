@@ -48,9 +48,10 @@ io.on('connection', function(socket){
 	});
 });
 app.use(express.static(__dirname + '/public'));
-//app.get('/', function(req, res,next) {
-//    res.render('/index.html');
-//});
+app.use(express.static(__dirname + '/bower_components'));
+app.get('/', function(req, res,next) {
+    res.render('index.html');
+});
 
 server.listen(2743);
 console.log("Listening to port 2743...");
